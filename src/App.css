@@ -1,0 +1,112 @@
+
+
+.Notes_des {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #fff;
+    margin: auto;
+    margin-top: 60px;
+    min-width: 300px;  /* Minimum width for the container */
+    max-width: 80%;   /* Maximum width for the container */
+    box-shadow: 1px 3px 19px 0px rgba(140, 140, 140, 0.75);
+}
+
+.Notes_des input[type="text"], .Notes_des textarea{
+    border: none;
+    margin-bottom: 2px;
+    padding: 2px;
+    font-size: 16px;
+    outline: none;
+    resize: none;
+    width: 100%;   /* Ensure it takes up the full width */
+    box-sizing: border-box;  /* Include padding in the element's width */
+}
+
+.Notes_des input::placeholder, .Notes_des textarea::placeholder {
+    font-weight: bold;
+    opacity: 0.8;
+    color: rgb(30, 26, 26);
+    font-style: italic;
+}
+
+.Notes_des input[type="text"]:focus, 
+.Notes_des textarea:focus {
+    border: none; 
+    outline: none;
+   
+}
+
+.btn-notes {
+    align-self: flex-end;
+    width: 20%;
+    padding: 1px 20px;
+    background-color: #50d204;
+    border: none;
+    color: #000;
+    border-radius: 4px;
+    cursor: pointer;
+    
+}
+
+.btn-notes:hover {
+    background-color: #0056b3;
+    color: #fff;
+}
+
+.todoListSection { 
+    width: 80%; 
+    margin: 0 auto; 
+    padding: 20px; 
+    display: flex; 
+    flex-wrap: wrap; 
+    gap: 20px;
+}
+
+.todoListSectionItem {
+    margin-bottom: 20px;
+     width: 100%;
+      height: fit-content; 
+      border-radius: 8px;
+       background-color: #fff;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); 
+        padding: 15px;
+}
+.todoListSectionItem input[type="text"], .todoListSectionItem textarea{
+    border: 1px solid black;
+    padding: 2px;
+    font-size: 16px;
+    outline: none;
+    resize: none;
+    width: 100%;   /* Ensure it takes up the full width */
+    box-sizing: border-box;  /* Include padding in the element's width */
+}
+
+.todoListSectionItem input::placeholder, .todoListSectionItem textarea::placeholder {
+    font-weight: bold;
+    opacity: 0.8;
+    color: rgb(30, 26, 26);
+    font-style: italic;
+}
+
+.todoListSectionItem input[type="text"]:focus, 
+.todoListSectionItem textarea:focus {
+    border: none; 
+    outline: none;
+    border-bottom: 1px solid #ccc; /* Ensuring border style remains consistent */
+}
+
+.todoButton {
+    align-self: flex-end;
+    padding: 8px 16px;
+    border: none;
+    color: #fff;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 2px;
+    margin-right: 20px;
+}
+
+
+
